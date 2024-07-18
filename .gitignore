@@ -1,0 +1,81 @@
+# Ignorar el entorno virtual
+venv/
+
+# Ignorar archivos de configuración de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorar archivos de configuración del IDE
+.vscode/
+.idea/
+
+# Ignorar archivos de configuración del sistema operativo
+.DS_Store
+*.swp
+
+# Ignorar archivos de caché
+*.egg-info/
+*.log
+
+# Ignorar archivos ssl
+*.crt
+*.csr
+*.key
+
+# compiled output
+/dist
+/node_modules
+/build
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+
+# Tests
+/coverage
+/.nyc_output
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# temp directory
+.temp
+.tmp
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
